@@ -1,0 +1,104 @@
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+}
+
+.eventform {
+    width: 500px;
+}
+
+#itwillbe {
+    /*display: inline-block;*/
+    text-align: center;
+}
+
+body {
+    text-align: center;
+    background: url(http://www.freefever.com/stock/white-parchment-paper-texture.jpg);
+    background-attachment: fixed;
+}
+
+.createnew {
+    background: rgba(51, 102, 204, .3);
+    letter-spacing: .5em;
+}
+
+.event {
+    font-size: 14px;
+}
+
+
+
+#eventname {
+    border: none;
+    background: #EDEDED;
+}
+
+/*TEXT BOX FONT STYLING*/
+
+.eventcalled {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.address {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.eventcalled {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*TEXT BOX STLYING*/
+
+#eventname {
+    border: none;
+    font-weight: bold;
+}
+
+#heldat {
+    border: none;
+}
+
+#address {
+    border: none;
+    width: 300px;
+}
+
+#city {
+    border: none;
+}
+
+#zip {
+    border: none;
+}
+
+#month {
+    border: none;
+}
+
+#day {
+    border: none;
+    border-top: black;
+    bottom: black;
+}
+
+#year {
+    border: none;
+}
+
+#time {
+    border color: black;
+    width: 435px;
+}
+
+@media screen and (min-width: 800px) {
+    body {
+        background: url(http://www.freefever.com/stock/white-parchment-paper-texture.jpg);
+        background-attachment: fixed
+    }
+}

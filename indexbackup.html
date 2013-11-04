@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+    <title>New Event!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <!-- <link rel="stylesheet" type="text/css" href="reset.css"> -->
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="screen.css">
+</head>
+
+<body>
+
+    <form autocomplete="off" enctype="multipart/form-data" method="post" action="https://mmanal.wufoo.com/forms/zu3zzdj0653zxu/">
+
+    <form class="event">
+
+        <!-- LEGEND -->
+
+        <legend class="createnew">CREATE A NEW EVENT</legend>
+
+        <!-- EVENT NAME -->
+
+        <fieldset id="eventname">
+            <label>
+            <legend class="eventcalled">Event is called</legend>
+            <input id="eventname" name="eventname" type="text" tabindex="1" placeholder="e.g. Fun Town">
+            </label><br>
+        </fieldset>
+
+        <!-- HELD AT -->
+
+        <fieldset id="col-sm-3">
+            <legend class="heldat">It'll be held at</legend>
+            <input id="address" name="address" type="text" tabindex="1" placeholder="Address">
+            </label><br>
+            <input id="city" name="city" type="text" tabindex="1" placeholder="City">
+            </label>
+            <input id="zip" name="zip" type="text" tabindex="1" placeholder="ZIP">
+            </label><br>
+        </fieldset>
+
+        <!-- IT'LL BE ON -->
+
+        <fieldset id="col-sm-3">
+            <legend class="itwillbeon">It'll be on</legend>
+            <input id="month" name="month" type="text" tabindex="1" placeholder="Month">
+            </label>
+            <input id="day" name="day" type="text" tabindex="1" placeholder="Date">
+            </label>
+            <input id="year" name="year" type="text" tabindex="1" placeholder="Year"><br>
+            <input id="time" name="time" type="text" tabindex="1" placeholder="Time">
+            </label>
+        </fieldset>
+
+        <!-- PRIVACY -->
+
+          <fieldset id="col-sm-3">
+            <legend class="privacy">Privacy</legend>
+            <label><input type="radio" name="do-you-want-to" value="private" required>Private</label>
+            <label>
+            <input type="radio" name="do-you-want-to" value="public" required="checked"> Public
+              </label>
+          </fieldset>
+
+        <!-- ADDITIONAL CHECKBOXES -->
+
+          <fieldset id="col-sm-3">
+            <label><input type="checkbox" name="friends" value="yes-friends" >Guests can invite friends</label><br>
+            <label><input type="checkbox" name="drinks" value="yes-drinks" >Drinks will be free</label><br>
+            <label><input type="checkbox" name="dancing" value="yes-dancing" >There will be dancing</label>
+          </fieldset>
+
+        <!-- MAKE IT SO COMPUTER -->
+
+        <button class="btn btn-primary" type="submit">Make it so, computer</button>
+
+    </form>
+
+</body>
+</html>
